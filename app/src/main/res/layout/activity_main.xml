@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#29E4D1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✨
+
+ Sokogarden  ✨
+
+"
+        android:padding="12dp"
+        android:textSize="38sp"
+        android:background="@drawable/shape"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        android:textColor="#0347F4"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/signupBtn"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="#090909"
+            android:padding="10dp"
+            android:text="Sign UP"
+            android:textColor="#F6F6F3"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/signinBtn"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="60dp"
+            android:backgroundTint="#020202"
+            android:padding="10dp"
+            android:text=" 👮 Sign In"
+            android:textColor="#F6F6F0"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/welcomeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:visibility="gone"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#ED0909"
+            android:textColor="#F2F2F2"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
